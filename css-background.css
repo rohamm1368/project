@@ -1,0 +1,77 @@
+.background2{
+    background-color: rgba(170,236 ,153 ,08);
+    width: 50%;
+    height: 655px;
+    float: right;
+}
+.background1{
+    background: url(./Jowhareh_galleries_3_poster_3bdc6e12-8773-49dd-9b5a-77c268463e76.jpeg) 0 40%/ cover no-repeat;
+    width: 50%;
+    height: 655px; 
+float: left;
+}
+.form2{
+    width: 50%;
+    height: 350px;
+    margin: 0 auto;
+    background-color:white;
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+
+}
+
+.form2 label,
+.form2 input:not([type="checkbox"]){
+    display: block;
+    margin-left:50% ;
+    margin: .6rem  auto;
+}
+
+.form2 input:not([type="checkbox"]){
+    width: 300px;
+    padding: .5rem;
+    border:none 3px;
+    border-radius: 20px;
+    background-color: #eeeeee;   
+}
+input::placeholder{
+    padding-left: .5rem;
+    font-weight: bold;
+    
+}
+
+.form-title{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.btn {
+    background-color: rgb(39, 197, 39);
+    width: 350px;
+    padding: .6rem;
+    position: absolute;
+    border: none 4px;
+    border-radius: 10px;
+    color: white;
+    left: 50%;
+    margin-left: -175px;
+  }
+  .checkbox {
+position: relative;
+left: 183px;  
+top: 12px; color:gray;
+  }
+  .label{
+    position: relative;
+    left: 337px;
+    bottom: 25px;
+    top: -12px;
+    color: limegreen;
+    font-weight: bold;
+  }
